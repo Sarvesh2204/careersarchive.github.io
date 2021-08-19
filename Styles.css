@@ -8,13 +8,22 @@ body {
     background: #ccc;
     font-family: Arial;
 }
+.topheader a:hover {
+    color: #c8133e;
+}
+.top-header  {
+    text-decoration: none;
+    color: black;
+}
 .topheader {
+    align-content: center;
     margin-top: 30px;
     text-align: center;
     font-weight: bolder;
     font-size: 1.728rem;
     margin-bottom: 20px;
     font-weight: 700px;
+    text-decoration: none;
 }
 .webindevelop {
     text-align: center;
@@ -67,7 +76,17 @@ body {
     width: 100%;
     text-align: center;
 }
-
+.aboutus{
+    margin-top: 50px;
+    text-align: center;
+}
+.aboutus .section1 {
+    margin-bottom: 50px;
+    height: 50vh;
+        background-image: url(assets/img/about/aboutus.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+}
 
 /* Team Member */
 .team-member .rounded-img {
