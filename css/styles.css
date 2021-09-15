@@ -11,6 +11,9 @@ body {
 
 #container {
     background: url(../assets/img/home/spcaeforpossibilies.jpg);
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    background-size: cover;
 
 }
 
