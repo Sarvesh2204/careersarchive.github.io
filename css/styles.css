@@ -8,6 +8,12 @@ body {
     background: #ccc;
     font-family: Arial;
 }
+
+#container {
+    background: url(../assets/img/home/spcaeforpossibilies.jpg);
+
+}
+
 .topheader a:hover {
     color: #c8133e;
 }
@@ -62,7 +68,7 @@ body {
 /* Subheader */
 .subheader {
         height: 50vh;
-        background-image: url(assets/img/home/spcaeforpossibilies.jpg);
+        
         background-attachment: fixed;
         background-size: cover;
 
